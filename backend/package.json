@@ -1,0 +1,20 @@
+{
+  "name": "backend-safemed",
+  "version": "1.0.0",
+  "description": "Backend for safemed",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Neil Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
